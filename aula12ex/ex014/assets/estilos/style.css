@@ -13,26 +13,31 @@ body {
 
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 header {
     margin-top: 40px;
     color: rgb(250, 186, 221);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
 }
 
 section {
-    height: 300px;
-    width: 450px;
-    background-color: whitesmoke;
-    border-radius: 2px;
+    height: 390px;
+    width: 390px;
+    background-color: rgb(213, 245, 240);
+    border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.527);
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 div {
-
+    padding: 20px;
+    font-size: 1.5em;
 }
 
 footer {
