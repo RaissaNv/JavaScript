@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/estilos/style.css">
-    <title>Modelo</title>
+    <title>Verificador de Idade</title>
 </head>
 <body>
     <header>
-        <h1>TITULO</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
         <div>
-            Testando...
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="1900" max="2024">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="txtsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="txtsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
         </div>
-        <div>
-            Oi
+        <div id="res">
+            Preencha os dados acima para ver o resultado.
         </div>
     </section>
     <footer>
