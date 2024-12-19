@@ -3,7 +3,8 @@ function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('img')
     var data = new Date()
-    var hora = data.getHours()
+    //var hora = data.getHours()
+    var hora = 19
     msg.innerHTML= `Agora sao ${hora} horas.`
 
     if ( hora >= 0 && hora < 12 ) {
@@ -15,6 +16,7 @@ function carregar() {
     } else {
         img.src = 'assets/images/fotonoite.png'
         document.body.style.background = '#2E2E43'
+        document.getElementById("rodape").style.color = 'white'
     }
 }
 
