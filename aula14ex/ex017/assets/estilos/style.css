@@ -32,9 +32,12 @@ section {
 }
 
 div {
-
+    padding-left: 10px;
 }
 
+p {
+    padding: 20px;
+}
 footer {
     font-style: italic;
     font-size: 0.9em;
